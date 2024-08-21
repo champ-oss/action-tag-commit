@@ -16,7 +16,6 @@ class TestMain(unittest.TestCase):
 
         :return:
         """
-
         github_util = MagicMock()
         main.main(github_util=github_util,
                   repo_name='test-repo',
